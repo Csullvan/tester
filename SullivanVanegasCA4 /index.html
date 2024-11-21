@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cristina Sullivan A4</title>
+  <meta name="author" content="Adtile">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100..800&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/responsive-nav.js"></script>
+</head>
+<body>
+  <header>
+    <h2>nature!</h2>
+    <nav class="nav-collapse">      
+      <ul>
+        <li class="menu-item"><a href="#" data-scroll>Home</a></li>
+        <li class="menu-item"><a href="#" data-scroll>About</a></li>
+        <li class="menu-item"><a href="#" data-scroll>Contact</a></li>
+      </ul>
+    </nav>
+    <script>
+      var nav = responsiveNav(".nav-collapse");
+    </script>
+  </header>
+  <main>
+    <div class="welcome-area">
+      <h1>Welcome</h1>
+      <h2>We're glad you're here.</h2>
+      <h3 class="button"><a href="#">Learn More</a></h3>
+    </div>
+    <div class="form-area">
+      <h3>Join our mailing list for updates!</h3>
+      <form method="get" action="/">
+        <label>
+          Your name
+          <input type="text" name="name">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email-address">
+        </label>
+        <button type="submit">Submit</button>    
+      </form> 
+    </div>
+    <div class="images-area">
+      <img src="images/flowers.png" alt="flowers">
+      <img src="images/oldwell.png" alt="old well UNC">
+      <img src="images/green.png" alt="mountain valley">
+    </div>
+  </main>
+  <footer>
+    <p>&#169; 2024 Cristina Sullivan</p>
+  </footer>
+</body>
+</html>
